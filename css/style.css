@@ -29,7 +29,7 @@ main .main_section_img {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+  background-image: url(https://raw.githubusercontent.com/ihor5/hugo/master/img/daft_punk_7-wallpaper-2880x1800.png);
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
   background-size: cover;
@@ -255,18 +255,16 @@ footer {
 }
 
 .closer {
-  -webkit-transition: 1s;
-  transition: 1s;
+  opacity: 1;
 }
 
 .closer:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 1140px) {
   main .main_section_img {
-    background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+    background-image: url(https://raw.githubusercontent.com/ihor5/hugo/master/img/daft_punk_7-wallpaper-2880x1800.png);
     -webkit-filter: brightness(80%);
             filter: brightness(80%);
     background-size: cover;
@@ -422,10 +420,18 @@ footer {
   .footer__img {
     margin: 10px;
   }
+
+  .closer {
+    opacity: 1;
+  }
+
+  .closer:hover {
+    opacity: 0.6;
+  }
 }
 @media screen and (max-width: 960px) {
   main .main_section_img {
-    background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+    background-image: url(https://raw.githubusercontent.com/ihor5/hugo/master/img/daft_punk_7-wallpaper-2880x1800.png);
     -webkit-filter: brightness(80%);
             filter: brightness(80%);
     background-size: cover;
@@ -578,10 +584,18 @@ footer {
   .footer__img {
     margin: 10px;
   }
+
+  .closer {
+    opacity: 1;
+  }
+
+  .closer:hover {
+    opacity: 0.6;
+  }
 }
 @media screen and (max-width: 720px) {
   main .main_section_img {
-    background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+    background-image: url(https://raw.githubusercontent.com/ihor5/hugo/master/img/daft_punk_7-wallpaper-2880x1800.png);
     -webkit-filter: brightness(80%);
             filter: brightness(80%);
     background-size: cover;
@@ -716,10 +730,18 @@ footer {
   .footer__img {
     margin: 5px;
   }
+
+  .closer {
+    opacity: 1;
+  }
+
+  .closer:hover {
+    opacity: 0.6;
+  }
 }
 @media screen and (max-width: 576px) {
   main .main_section_img {
-    background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+    background-image: url(https://raw.githubusercontent.com/ihor5/hugo/master/img/daft_punk_7-wallpaper-2880x1800.png);
     -webkit-filter: brightness(80%);
             filter: brightness(80%);
     background-size: cover;
@@ -854,5 +876,13 @@ footer {
 
   .footer__img {
     margin: 5px;
+  }
+
+  .closer {
+    opacity: 1;
+  }
+
+  .closer:hover {
+    opacity: 0.6;
   }
 }
