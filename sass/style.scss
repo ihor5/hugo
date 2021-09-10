@@ -1,0 +1,197 @@
+body{
+  background: white;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   i{
+    margin: 2vh;
+  }
+}
+main{
+  .main_section_img{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+  filter: brightness(80%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  }
+}
+.conteiner-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .check{
+    width: 50%;
+    margin-left: 7vw;
+    line-height: 2rem;
+    img{
+    margin-right: 1vw;
+    }
+    h1{
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    p{
+      max-width: 80%;
+      margin-bottom: 5vh;
+    }
+  }
+}
+.disk{
+  position: relative;
+  .beat{
+    position: absolute;
+    top: 15vh;
+    right: 20vw;
+    z-index: 5;
+  }
+  .vinyl{
+    z-index: 2;
+    position: absolute;
+    top: 15vh;
+    right: 10vw;
+  }
+}
+.bg{
+  height: 100%;
+  width: 100%;
+}
+.container-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+}
+.video{
+  img{
+    max-width: 50vw;
+  }
+}
+
+.container-2_content{
+  margin-left: 10vw;
+  font-size: 1.2rem;
+    h2{
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 1vh;
+    }
+    p{
+      line-height: 2.5rem; 
+      max-width: 80%;
+    }
+    a{
+      color: black;
+      border-right: 1px solid black;
+      border-radius: 0;
+    }
+  }
+.time {
+  padding: 15ch 0;
+ display: flex;
+justify-content: center;
+align-items: center;
+  .time_event{
+    padding-right: 10vw;
+    h2{
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+}
+#clockdiv{
+	font-size: 1rem;
+	display: inline-block;
+}
+
+#clockdiv > div{
+  text-align: center;
+  padding: 3vw;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+  font-size: 3rem;
+	display: inline-block;
+}
+
+.instagram_flex{
+  width: 100%;
+  position: relative;
+}
+.instagram-1{ 
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  img{
+    height: 100%;
+    width: 16.6%;
+  }
+
+}
+.instagram-2{ 
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  img{
+    height: 100%;
+    width: 16.6%;
+  }
+}
+.instagram-3{
+  position: absolute;
+  top: 20vh;
+  left: 35vw;
+  img{
+    position: relative;
+  }
+}
+.instagram-3 i{
+  color:white;
+  font-size: 4rem;
+  position: absolute;
+  left: 12vw;
+  top: 6vh;
+}
+.instagram-3 h2{
+  color:white;
+  font-size: 3rem;
+  position: absolute;
+  left: 7vw;
+  top: 15vh;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__img{
+  margin-left: 7vw;
+  flex-grow: 1;
+}
+.footer__p{
+  padding-top: 2vh;
+  flex-grow: 2;
+}
+.footer__icon{
+    flex-grow: 1;
+    i{
+      margin: 2vw;
+    }
+}
+.closer {
+  transition: 1s; 
+ }
+ .closer:hover {
+  transform: scale(1.2);
+ }
+ 
