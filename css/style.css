@@ -71,15 +71,15 @@ main .main_section_img {
 }
 .disk .beat {
   position: absolute;
-  top: 15vh;
-  right: 20vw;
+  top: 15%;
+  right: 20%;
   z-index: 5;
 }
 .disk .vinyl {
   z-index: 2;
   position: absolute;
-  top: 15vh;
-  right: 10vw;
+  top: 15%;
+  right: 10%;
 }
 
 .bg {
@@ -118,7 +118,8 @@ main .main_section_img {
   max-width: 80%;
 }
 .container-2_content a {
-  color: black;
+  text-decoration: underline;
+  color: #2f0df0;
   border-right: 1px solid black;
   border-radius: 0;
 }
@@ -196,8 +197,8 @@ main .main_section_img {
 
 .instagram-3 {
   position: absolute;
-  top: 20vh;
-  left: 35vw;
+  top: 20%;
+  left: 35%;
 }
 .instagram-3 img {
   position: relative;
@@ -207,16 +208,16 @@ main .main_section_img {
   color: white;
   font-size: 4rem;
   position: absolute;
-  left: 12vw;
-  top: 6vh;
+  left: 40%;
+  top: 20%;
 }
 
 .instagram-3 h2 {
   color: white;
   font-size: 3rem;
   position: absolute;
-  left: 7vw;
-  top: 15vh;
+  left: 23%;
+  top: 45%;
 }
 
 footer {
@@ -261,4 +262,597 @@ footer {
 .closer:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+@media screen and (max-width: 1140px) {
+  main .main_section_img {
+    background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+    -webkit-filter: brightness(80%);
+            filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  main .main_section_img .jump {
+    width: 80vw;
+  }
+
+  .conteiner-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+  }
+  .conteiner-1 .check {
+    margin: 5vw;
+    text-align: start;
+    max-width: 50%;
+  }
+  .conteiner-1 .check a {
+    margin-right: 5vw;
+  }
+  .conteiner-1 .beat {
+    display: none;
+  }
+  .conteiner-1 .vinyl {
+    display: none;
+  }
+
+  .container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    margin-top: 5vw;
+  }
+  .container-2 .video__img {
+    max-width: 100%;
+  }
+  .container-2 .container-2_content {
+    text-align: start;
+    max-width: 60%;
+    line-height: 0.1;
+    margin-left: 25vw;
+    margin-top: 5vh;
+  }
+
+  .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1vw;
+    margin: 5vw;
+  }
+  .time .time_event {
+    margin-left: 12vw;
+  }
+
+  .instagram_flex {
+    width: 100%;
+    position: relative;
+  }
+
+  .instagram-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .instagram-1 img {
+    height: 100%;
+    width: 16.6%;
+  }
+
+  .instagram-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .instagram-2 img {
+    height: 100%;
+    width: 16.6%;
+  }
+
+  .instagram-3 {
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+  }
+  .instagram-3 img {
+    position: relative;
+  }
+
+  .instagram-3 i {
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    left: 12vw;
+    top: 6vh;
+  }
+
+  .instagram-3 {
+    display: none;
+  }
+
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5px;
+  }
+
+  .footer__p {
+    margin-top: 10px;
+    font-size: 2vw;
+    padding: 10px;
+  }
+
+  .footer__img {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 960px) {
+  main .main_section_img {
+    background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+    -webkit-filter: brightness(80%);
+            filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  main .main_section_img .jump {
+    width: 80vw;
+  }
+
+  .conteiner-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+  }
+  .conteiner-1 .check {
+    width: 100vw;
+    margin: 10vw;
+    margin-left: 20vw;
+  }
+  .conteiner-1 .beat {
+    display: none;
+  }
+  .conteiner-1 .vinyl {
+    display: none;
+  }
+
+  .container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    margin-top: 5vw;
+  }
+  .container-2 .video__img {
+    max-width: 100%;
+  }
+  .container-2 .container-2_content {
+    text-align: start;
+    max-width: 60%;
+    line-height: 0.1;
+    margin-left: 25vw;
+    margin-top: 5vh;
+  }
+
+  .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1vw;
+    margin: 5vw;
+  }
+  .time .time_event {
+    margin-left: 12vw;
+  }
+
+  .instagram_flex {
+    width: 100%;
+    position: relative;
+  }
+
+  .instagram-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .instagram-1 img {
+    height: 100%;
+    width: 16.6%;
+  }
+
+  .instagram-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .instagram-2 img {
+    height: 100%;
+    width: 16.6%;
+  }
+
+  .instagram-3 {
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+  }
+  .instagram-3 img {
+    position: relative;
+  }
+
+  .instagram-3 i {
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    left: 12vw;
+    top: 6vh;
+  }
+
+  .instagram-3 {
+    display: none;
+  }
+
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5px;
+  }
+
+  .footer__p {
+    margin-top: 10px;
+    font-size: 2vw;
+    padding: 10px;
+  }
+
+  .footer__img {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main .main_section_img {
+    background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+    -webkit-filter: brightness(80%);
+            filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  main .main_section_img .jump {
+    width: 80vw;
+  }
+
+  .conteiner-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+  }
+  .conteiner-1 .check {
+    width: 100vw;
+    margin: 10vw;
+    margin-left: 20vw;
+  }
+  .conteiner-1 .beat {
+    display: none;
+  }
+  .conteiner-1 .vinyl {
+    display: none;
+  }
+
+  .container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    margin-top: 5vw;
+  }
+  .container-2 .video__img {
+    max-width: 100%;
+  }
+  .container-2 .container-2_content {
+    text-align: center;
+    line-height: 0.1;
+    margin-left: 5vw;
+  }
+
+  .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1vw;
+    margin: 5vw;
+  }
+  .time .time_event {
+    margin-left: 12vw;
+  }
+
+  .instagram_flex {
+    max-width: 100vw;
+  }
+
+  .instagram-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .instagram-1 img {
+    width: 100%;
+  }
+
+  .instagram-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .instagram-2 img {
+    width: 100%;
+  }
+
+  .instagram-3 {
+    display: none;
+  }
+
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5px;
+  }
+
+  .footer__p {
+    font-size: 3.5vw;
+    padding: 10px;
+  }
+
+  .footer__img {
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .main_section_img {
+    background-image: url(/img/daft_punk_7-wallpaper-2880x1800.png);
+    -webkit-filter: brightness(80%);
+            filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  main .main_section_img .jump {
+    width: 80vw;
+  }
+
+  .conteiner-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+  .conteiner-1 .check {
+    max-width: 100%;
+  }
+  .conteiner-1 .beat {
+    display: none;
+  }
+  .conteiner-1 .vinyl {
+    display: none;
+  }
+
+  .container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    margin-top: 5vw;
+  }
+  .container-2 .video__img {
+    max-width: 100%;
+  }
+  .container-2 .container-2_content {
+    text-align: start;
+    line-height: 0.1;
+    max-width: 100%;
+    margin-left: 12vw;
+  }
+
+  .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1vw;
+    margin: 5vw;
+  }
+  .time .time_event {
+    margin-left: 12vw;
+  }
+
+  .instagram_flex {
+    max-width: 100vw;
+  }
+
+  .instagram-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .instagram-1 img {
+    width: 100%;
+  }
+
+  .instagram-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .instagram-2 img {
+    width: 100%;
+  }
+
+  .instagram-3 {
+    display: none;
+  }
+
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5px;
+  }
+
+  .footer__p {
+    font-size: 3.5vw;
+    padding: 10px;
+  }
+
+  .footer__img {
+    margin: 5px;
+  }
 }
